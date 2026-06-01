@@ -80,13 +80,6 @@ function Navbar() {
           About
         </a>
         <a
-          href="#skills"
-          onClick={() => setIsOpen(false)}
-          className={activeSection === "skills" ? "active" : ""}
-        >
-          Skills
-        </a>
-        <a
           href="#projects"
           onClick={() => setIsOpen(false)}
           className={activeSection === "projects" ? "active" : ""}

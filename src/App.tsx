@@ -7,7 +7,6 @@ import About from "./main/About/About.tsx";
 import Contact from "./main/Contact/Contact.tsx";
 import Hero from "./main/Hero/Hero.tsx";
 import Projects from "./main/Projects/Projects.tsx";
-import Skills from "./main/Skills/Skills.tsx";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Skills />
         <Projects />
         <Contact />
       </main>
