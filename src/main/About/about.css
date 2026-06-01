@@ -1,17 +1,13 @@
 .about {
-  gap: 20px;
+  display: flex;
+  align-items: flex-start;
 }
 
-.about-container img {
-  width: 80px;
-  height: auto;
-  border-radius: 10px;
-}
+/* About container */
 
 .about-subtitle {
   font-size: 1rem;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin-bottom: 15px;
   text-align: left;
   letter-spacing: 1px;
 }
@@ -37,52 +33,55 @@
   letter-spacing: 1px;
 }
 
-/* Social Media */
-.about-socialmedia {
+/* Pet Image */
+.about-img-container {
   display: flex;
-  gap: 15px;
-  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
 }
 
-.about-socialmedia a img {
-  width: 32px;
-  height: 32px;
+.about-img-container img {
+  width: 400px;
+  height: auto;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.skill-item {
+  flex: 1 1 calc(50% - 10px);
+  background-color: var(--blue-dark);
+  padding: 20px 20px 10px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.skill-item ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-item li {
+  flex: 1 1 calc(50% - 10px);
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 100;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.skill-item li img {
+  width: 24px;
+  height: 24px;
   margin-right: 8px;
-}
-
-.message-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.message-inputs {
-  display: flex;
-  gap: 10px;
-}
-
-.message-input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.message-textarea {
-  width: 100%;
-  height: 100px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-.send-button {
-  width: 100px;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
