@@ -1,3 +1,88 @@
 .about {
-  height: 100vh;
+  gap: 20px;
+}
+
+.about-container img {
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-subtitle {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.about-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin: 10px 0 5px;
+}
+
+.about-container ul {
+  list-style-type: disc;
+  padding: 10px 20px 25px;
+}
+
+.about-container li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+/* Social Media */
+.about-socialmedia {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.about-socialmedia a img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.message-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.send-button {
+  width: 100px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

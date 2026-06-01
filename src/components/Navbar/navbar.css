@@ -21,7 +21,7 @@ nav {
 }
 
 nav.scrolled {
-  background-color: #0f172acc;
+  background-color: var(--blue-dark);
 
   /* El truco del vidrio: Desenfoque del contenido que pasa por detrás */
   backdrop-filter: blur(12px);

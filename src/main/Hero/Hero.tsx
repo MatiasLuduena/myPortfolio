@@ -2,7 +2,7 @@ import "./hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <section className="hero" id="home">
       <h1 className="hero-title">Hi, I'm Matías 👋</h1>
       <h2 className="hero-subtitle">Full-Stack Web Developer</h2>
       <p className="hero-description">
@@ -10,7 +10,7 @@ const Hero = () => {
         MongoDB.
       </p>
       <span className="hero-continue">Scroll down to learn more ↓</span>
-    </div>
+    </section>
   );
 };
 
