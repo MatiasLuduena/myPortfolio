@@ -3,7 +3,7 @@ import "./about.css";
 const About = () => {
   return (
     <section className="container" id="about">
-      {/* About content */}
+      {/* About container */}
       <div className="about">
         <div className="about-container">
           <h3 className="about-subtitle">About Me</h3>
@@ -15,10 +15,10 @@ const About = () => {
             React, and Node.js).
           </p>
 
-          <h3 className="about-subtitle">Here is what I bring to the table:</h3>
+          <h3 className="about-subtitle">What I can do:</h3>
           <ul>
             <li>
-              <strong>Frontend:</strong> Crafting responsive, interactive, and
+              <strong>Frontend:</strong> Building responsive, interactive, and
               accessible UIs using React.
             </li>
             <li>
@@ -27,8 +27,8 @@ const About = () => {
               MongoDB.
             </li>
             <li>
-              <strong>Mindset:</strong> Clean code enthusiast, continuous
-              learner, and efficient problem solver.
+              <strong>Mindset:</strong> I like clean code, I'm a continuous
+              learner, and an efficient problem solver.
             </li>
           </ul>
 
@@ -49,7 +49,7 @@ const About = () => {
       <h2 className="about-subtitle">Skills and Technologies</h2>
       <div className="about skills-container">
         <div className="skill-item card">
-          <h3 className="about-subtitle">Frontend:</h3>
+          <h3 className="skills-subtitle">Frontend:</h3>
           <ul>
             <li>
               <img src="src/assets/icons/js.png" alt="JavaScript" />{" "}
@@ -73,7 +73,7 @@ const About = () => {
           </ul>
         </div>
         <div className="skill-item card">
-          <h3 className="about-subtitle">Backend:</h3>
+          <h3 className="skills-subtitle">Backend:</h3>
           <ul>
             <li>
               <img src="src/assets/icons/node.png" alt="Node.js" />{" "}
@@ -94,7 +94,7 @@ const About = () => {
           </ul>
         </div>
         <div className="skill-item card">
-          <h3 className="about-subtitle">Database:</h3>
+          <h3 className="skills-subtitle">Database:</h3>
           <ul>
             <li>
               <img src="src/assets/icons/mongodb.png" alt="MongoDB" />{" "}
@@ -115,7 +115,7 @@ const About = () => {
           </ul>
         </div>
         <div className="skill-item card">
-          <h3 className="about-subtitle">Tools:</h3>
+          <h3 className="skills-subtitle">Tools:</h3>
           <ul>
             <li>
               <img src="src/assets/icons/git.png" alt="Git / GitHub" />{" "}
