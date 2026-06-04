@@ -1,3 +1,52 @@
 .projects {
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects-description {
+  max-width: 600px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.project-card img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-card h5 {
+  margin: 15px 0 10px;
+  font-size: 1em;
+  text-align: start;
+}
+
+.project-card p {
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: start;
 }
