@@ -1,3 +1,111 @@
 .contact {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 20px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.contact-socialmedia {
+  flex: 1 1 250px;
+}
+
+.contact-socialmedia img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+  margin: 10px 0;
+}
+
+.contact-socialmedia img:hover {
+  transform: scale(1.1);
+}
+
+.contact-text {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 10px 0 5px;
+}
+
+.contact-link {
+  text-decoration: none;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+/* Form styles */
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 750px;
+  margin-bottom: 80px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.message-container input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a1f2a;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.message-inputs {
+  display: flex;
+  gap: 15px;
+}
+
+.message-container textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.message-container button {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 1px;
+}
+
+.message-container button:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  margin: 0;
+  border: 1px solid var(--primary-color);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contact-form-container {
+    margin-bottom: 30px;
+  }
 }

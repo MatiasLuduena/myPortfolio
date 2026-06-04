@@ -6,7 +6,7 @@ const About = () => {
       {/* About container */}
       <div className="about">
         <div className="about-container">
-          <h3 className="about-subtitle">About Me</h3>
+          <h3 className="subtitle">About Me</h3>
           <p className="about-description">
             I am a passionate <strong>Full-Stack Web Developer</strong> with
             experience building personal projects and modern web applications. I
@@ -15,7 +15,7 @@ const About = () => {
             React, and Node.js).
           </p>
 
-          <h3 className="about-subtitle">What I can do:</h3>
+          <h3 className="subtitle">What I can do:</h3>
           <ul>
             <li>
               <strong>Frontend:</strong> Building responsive, interactive, and
@@ -46,7 +46,7 @@ const About = () => {
       </div>
 
       {/* Skills content */}
-      <h2 className="about-subtitle">Skills and Technologies</h2>
+      <h2 className="subtitle">Skills and Technologies</h2>
       <div className="about skills-container">
         <div className="skill-item card">
           <h3 className="skills-subtitle">Frontend:</h3>
