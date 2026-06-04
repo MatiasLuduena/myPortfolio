@@ -1,5 +1,11 @@
+import "./footer.css";
+
 const Footer = () => {
-  return <footer>Footer</footer>;
+  return (
+    <footer>
+      <p>© 2026 Matías Ludueña. All rights reserved.</p>
+    </footer>
+  );
 };
 
 export default Footer;
